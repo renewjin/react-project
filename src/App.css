@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.box-, .box-tie, .box-win, .box-lose {
+  border: 2px solid black;
+  width: 400px;
+}
+
+.box-win {
+  border: 2px solid green;
+}
+
+.box-lose {
+  border: 2px solid red;
+}
+
+.item-img {
+  width: 400px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50; 
+  color: white;
+  font-size: 16px; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #45a049; 
+  color: yellow;
+}
